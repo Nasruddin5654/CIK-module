@@ -114,10 +114,3 @@ se = SecEdgar('https://www.sec.gov/files/company_tickers.json')
 
 
 
-#test cases
-print(se.name_to_cik("Apple Inc."))  # checks if cik and ticker methods work
-print(se.ticker_to_cik("MSFT"))
-
-
-se.annual_filing(320193,2018)
-se.quarterly_filing(320193,2019,3) #checks to see if annual and quarterly works correctly
